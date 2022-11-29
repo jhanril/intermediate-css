@@ -3,13 +3,24 @@
     float: left;
     font-size: 1rem;
     padding: 2%;
-    width: 25%;
+    box-sizing: border-box;
+    margin: 40px 1% 0;
+    width: 23%;
+}
+.bio-box img {
+    width: 100%;
+}
+
+.bio-box h3 {
+    margin-top: -35px;
+    text-align: center;
+    color: white;
 }
 .bio-wrapper {
     background-color: #c0e0c3;
     font-size: 24px;
-    height: 300px;
-    overflow: scroll;
+    max-width: 960px;
+    margin: auto;
 }
 .bio-wrapper:after {
     visibility: hidden;
@@ -18,4 +29,13 @@
     content: " ";
     clear: both;
     height: 0;
+}
+
+/* .social-list {
+    list-style: none;
+    padding: 0;
+} */
+
+.social-list > li {
+    display: inline-block;
 }
